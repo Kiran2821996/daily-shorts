@@ -1,0 +1,147 @@
+.anchor{
+color: black;
+}
+.anchorDark{
+color: white;
+}
+.inshort-Cards{
+    background-color: rgba(200, 246, 135, 0.534);
+    width: 60%;
+    height: fit-content;
+    margin:10% 20%;
+    padding: 2%;
+    border-radius: 3%;
+    border: 3px solid black;
+    font-weight: bolder;
+}
+.inshort-Cards-dark{
+    background-color: rgb(110, 111, 109);
+    width: 60%;
+    height: fit-content;
+    margin:10% 20%;
+    padding: 2%;
+    border-radius: 3%;
+    border: 3px solid rgb(255, 255, 255);
+    font-weight: bolder;
+}
+.inshort-Cards button{
+    cursor: pointer;
+    font-weight: bold;
+}
+.inshort-Cards-dark button{
+    cursor: pointer;
+}
+
+.delete button:hover{
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+}
+.likes button{
+    
+    padding: 7%;
+    font-size: medium;
+    border: none;
+    border-radius: 100px;
+}
+.likes button:hover{
+    background-color: black;
+    
+    color: white;
+}
+.comment input{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: rgba(200, 246, 135, 0.372);
+    font-size: large;
+}
+.comment button{
+    border: 2px solid  rgba(200, 246, 135, 0.534);
+font-size: medium;
+background-color:  rgba(200, 246, 135, 0.534);
+}
+.comment button:hover{
+  
+    border: 2px solid black;
+}
+.commentdark input{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    background-color:  rgb(110, 111, 109);
+    font-size: large;
+    color: white;
+}
+.commentdark button{
+    border: 2px solid  rgb(110, 111, 109);
+font-size: medium;
+background-color:  rgb(110, 111, 109);
+color: white;
+}
+.commentdark input::placeholder{
+    color: rgba(255, 255, 255, 0.493);
+    font-weight: bolder;
+}
+.commentdark button:hover{
+  
+    border: 2px solid rgb(246, 246, 246);
+}
+
+
+.inshort-Cards img{
+    border: 3px solid black;
+}
+.inshort-Cards span{
+    text-decoration: underline;
+}
+.inshort-Cards-dark img{
+    border: 3px solid rgb(255, 255, 255);
+}
+.inshort-Cards-dark span{
+    text-decoration: underline;
+}
+.bokk-btn{
+    
+    margin-left: 95%;
+    padding: 3%;
+    background-color:  rgb(200, 246, 135);
+    
+    border: 2px solid rgb(0, 0, 0);
+    font-size: medium;
+    outline: none;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    font-weight: bolder;
+   
+  }
+
+  .bokk-btn:focus{
+    background-color: yellow;
+  }
+  .bokk-btn-dark{
+    margin-left: 95%;
+    padding: 3%;
+    background-color: rgba(64, 64, 63, 0.982);;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    font-size: medium;
+    outline: none;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    font-weight: bolder;
+  }
+  .bokk-btn-dark:focus{
+    background-color: yellow;
+    color: black;
+  }
+
+.likes-comment{
+
+  display: flex;
+
+  justify-content: space-between;
+}
+.all-comments{
+    text-align: left;
+}

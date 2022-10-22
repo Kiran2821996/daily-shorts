@@ -1,0 +1,79 @@
+.title-Cards{
+  border: 5px solid rgb(0, 0, 0);
+background-color: rgba(200, 246, 135, 0.534);
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 30%;
+margin: 3%;
+padding: 2%;
+border-radius: 5%;
+}
+.title-Cards-dark{
+  border: 5px solid rgb(255, 255, 255);
+  background-color: rgb(110, 111, 109);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  margin: 3%;
+  padding: 2%;
+  border-radius: 5%;
+}
+
+.title-Cards img{
+  border: 5px solid rgb(0, 0, 0);
+  margin-bottom: 3%;
+  border-radius: 5px;
+}
+
+.title-Cards-dark img{
+  border:5px solid rgb(255, 255, 255) ;
+  margin-bottom: 3%;
+  border-radius: 10px;
+}
+
+
+.container{
+ 
+  display: flex;
+flex-direction: column;
+align-items: center;
+flex-wrap: wrap;
+
+}
+.headline-bookmark{
+  margin-left: 65%;
+}
+.title-Cards button{
+  padding: 15%;
+  background-color: rgba(162, 236, 88, 0.982);
+  border: 2px solid rgb(255, 255, 255);
+  font-size: medium;
+  outline: none;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+  font-weight: bolder;
+}
+.title-Cards button:focus{
+  background-color: yellow;
+}
+.title-Cards-dark button{
+  padding: 15%;
+  background-color: rgba(58, 58, 58, 0.982);;
+  border: 2px solid rgb(0, 0, 0);
+  color: white;
+  font-size: medium;
+  outline: none;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+  font-weight: bolder;
+}
+.title-Cards-dark button:focus{
+  background-color: yellow;
+  color: black;
+}
+
+.headline-bookmark button:hover{
+  cursor: pointer;
+}

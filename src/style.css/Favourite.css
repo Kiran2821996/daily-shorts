@@ -1,0 +1,58 @@
+a{
+    text-decoration: none;
+}
+
+.anchor{
+   color: black;
+}
+.anchorDark{
+    color: white;
+}
+
+.favtCard{
+    background-color: rgba(200, 246, 135, 0.992);
+    width: 60%;
+    height: fit-content;
+    margin:10% 20%;
+    padding: 2%;
+    border-radius: 3%;
+    border: 3px solid black;
+    font-weight: bolder;
+}
+
+.favtCardDark{
+    background-color: rgb(110, 111, 109);
+    color: white;
+    width: 60%;
+    height: fit-content;
+    margin:10% 20%;
+    padding: 2%;
+    border-radius: 3%;
+    border: 3px solid rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+.favtCard button,.favtCardDark button{
+    margin-left: 40%;
+    border: 1px solid black;
+    font-size: larger;
+    border-radius: 50px;
+
+}
+.favtCard button:hover,.favtCardDark button:hover{
+    margin-left: 40%;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: red;
+    color: white;
+    font-size: larger;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+.bk{
+    position: absolute;
+    top: 40%;
+    right: 30%;
+    font-size: xx-large;
+    font-weight: bolder;
+}

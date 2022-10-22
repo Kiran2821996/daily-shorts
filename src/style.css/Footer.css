@@ -1,0 +1,15 @@
+.footer{
+    height: 5vh;
+}
+.footer>h5{
+    margin-top: 5%;
+    text-align: center;
+    padding:2%;
+    border: 5px solid black;
+}
+.footerd>h5{
+    margin-top: 5%;
+    text-align: center;
+    padding:2%;
+    border: 5px solid white;
+}

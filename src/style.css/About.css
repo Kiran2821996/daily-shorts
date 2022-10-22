@@ -1,0 +1,9 @@
+.about{
+    background-color: rgba(137, 43, 226, 0.285);
+    padding: 5%;
+}
+.about span{
+    text-decoration: line-through;
+    font-size: xx-large;
+    font-weight: bolder;
+}
